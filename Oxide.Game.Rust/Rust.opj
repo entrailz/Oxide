@@ -14,14 +14,14 @@
             "HookName": "InitOxide",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Bootstrap",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Initialization",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "duxytUjZ63dsldcVlddUlNVqB4g0PTMXPSApJT8a7G8=",
+            "MSILHash": "F3sSn41+PBrED5SmdAwEKPLKbtf/8HKTQklaUUcwwuI=",
             "BaseHookName": null
           }
         },
@@ -37,14 +37,14 @@
             "HookName": "InitLogging",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Bootstrap",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "StartupShared",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "8DlcvHAtr4Yg45a2DunVvcgP23qTGKom6deNin4hyo8=",
+            "MSILHash": "pZNHoDiNtz9EXDjleCfU5yo/CboALLiCsIP8r4AF9DU=",
             "BaseHookName": null
           }
         },
@@ -60,14 +60,14 @@
             "HookName": "OnTick",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerMgr",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "DoTick",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "Ptzqkby6FZ2DX62yQfE/krBOKCKwRdcNaI7862ZiRSo=",
+            "MSILHash": "P9PeNm0/r12+gaZGwMOJ/oHLlOxKkJCI3+pMC8OqQ6A=",
             "BaseHookName": null
           }
         },
@@ -83,14 +83,14 @@
             "HookName": "ModifyTags",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerMgr",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "UpdateServerInformation",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "YpmBcj8ttFYM5A0uUEuB+EkjZzNaxJ4rlWS745k+06g=",
+            "MSILHash": "6XoEsBUjwsn06pwJeDjU3Y/J2fKg99Wy/i9WdjcfE98=",
             "BaseHookName": null
           }
         },
@@ -106,7 +106,7 @@
             "HookName": "OnPlayerConnected",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerMgr",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "ClientReady",
@@ -115,7 +115,7 @@
                 "Network.Message"
               ]
             },
-            "MSILHash": "5CGn794tBt5Hzze/S5y81tzzU2IOR5xOoz+48oLn3oA=",
+            "MSILHash": "hVq0KbISrlV7r6CXMbtOxcdha/J7B6Jlcv0BXuQ749g=",
             "BaseHookName": null
           }
         },
@@ -131,14 +131,14 @@
             "HookName": "OnFindSpawnPoint",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerMgr",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "FindSpawnPoint",
               "ReturnType": "BasePlayer/SpawnPoint",
               "Parameters": []
             },
-            "MSILHash": "P2BgXfh5JfNLr5sYXCWSPIFAv1KnvgbkmXN+cL2439A=",
+            "MSILHash": "fp3ziVQAGBHwHz6+eq+UitCTxPZoYhWfppnUZMIKSmk=",
             "BaseHookName": null
           }
         },
@@ -154,14 +154,14 @@
             "HookName": "OnPlayerDisconnected",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnDisconnected",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "LkcLAoxJBy5yaMvnby0gaeoY6xdLBnjYVGaQ9ijcNGk=",
+            "MSILHash": "WG4hAhFguAhYsBrl41ThHQdIjYh+DDHcXChfcH8SEG4=",
             "BaseHookName": null
           }
         },
@@ -177,7 +177,7 @@
             "HookName": "OnItemRemovedFromContainer",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ItemContainer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "Remove",
@@ -186,7 +186,7 @@
                 "Item"
               ]
             },
-            "MSILHash": "Ah7wAFo5mipujNYFPbUqFdfBaWcuUKzDDJdr2FrI+cM=",
+            "MSILHash": "gy5lRa1PLj9nDKK32tlVmGy9QnRUg5ks0ENlaz9hfiI=",
             "BaseHookName": null
           }
         },
@@ -202,7 +202,7 @@
             "HookName": "OnItemAddedToContainer",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ItemContainer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "Insert",
@@ -211,7 +211,7 @@
                 "Item"
               ]
             },
-            "MSILHash": "SOksLzW0NrbDgZY4JJP2jSTL6QcgeWKLfmgzt1+lvR8=",
+            "MSILHash": "VQFaOpG22NzKMLTJQvVsrplX5v4+Tjli62K2prKl2F0=",
             "BaseHookName": null
           }
         },
@@ -227,7 +227,7 @@
             "HookName": "OnEntitySpawned",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseNetworkable",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Spawn",
@@ -236,7 +236,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "vAr7MtChAJKwbUzwBzf50M5LZ9QQQtI2ov59M4tZaHM=",
+            "MSILHash": "KYYS9uChIZNQ1h0fQyb1d+E4ivMJdCfZQKCFg6be4pg=",
             "BaseHookName": null
           }
         },
@@ -252,7 +252,7 @@
             "HookName": "OnPlayerRespawned",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Respawn",
@@ -261,7 +261,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "Bdy2OwK/2fJqUKOzcUVXQ2Oz/MbzmXrIyYm+VLl1E1I=",
+            "MSILHash": "riOXps5PVI7ZDKDThZXJ4Uj5Yz2Xmnhj7afbzt6fZMA=",
             "BaseHookName": null
           }
         },
@@ -277,7 +277,7 @@
             "HookName": "OnPlayerInit",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "PlayerInit",
@@ -286,7 +286,7 @@
                 "Network.Connection"
               ]
             },
-            "MSILHash": "A/DuHrIM+jiB8um8u+wWgnRHQ2HKMxzPTJT3QWIeFjo=",
+            "MSILHash": "E3olVmVhnEizlf2OVtDj2YI7KA0Md4JXFdy7XlS3bNo=",
             "BaseHookName": null
           }
         },
@@ -302,7 +302,7 @@
             "HookName": "CanUseDoor",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseLock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnTryToOpen",
@@ -311,7 +311,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "VOzBIbOCj6kT9pFytK2L6Qu8lbfZNK0+bMVqXBxvOCE=",
+            "MSILHash": "jlXkY9vXqprWC+xfrcCQ03LfFNGjaWBZA1pTfCwdw3w=",
             "BaseHookName": null
           }
         },
@@ -327,7 +327,7 @@
             "HookName": "CanUseDoor",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseLock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnTryToClose",
@@ -336,7 +336,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "P3Mx+v3adUs95vU27ANKY5mvZxgLUs14zJrrTfI5vlw=",
+            "MSILHash": "vtXwsJLxpneW8HaAjxp1hS0gDCL8RFoayKghoSC6yms=",
             "BaseHookName": null
           }
         },
@@ -352,7 +352,7 @@
             "HookName": "CanUseDoor",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "CodeLock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnTryToOpen",
@@ -361,7 +361,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "cvmCNmrb4rKwyTwNWEcMrvcbaJmIvkaVOSzCTAcM2iY=",
+            "MSILHash": "Ws0+/uScCe3XwbLRHZg4e6VL29A+/JVAdNddcARNDFs=",
             "BaseHookName": null
           }
         },
@@ -377,7 +377,7 @@
             "HookName": "CanUseDoor",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "CodeLock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnTryToClose",
@@ -386,7 +386,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "cvmCNmrb4rKwyTwNWEcMrvcbaJmIvkaVOSzCTAcM2iY=",
+            "MSILHash": "Ws0+/uScCe3XwbLRHZg4e6VL29A+/JVAdNddcARNDFs=",
             "BaseHookName": null
           }
         },
@@ -402,7 +402,7 @@
             "HookName": "CanOpenDoor",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "KeyLock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnTryToClose",
@@ -411,7 +411,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "KP8odDkmowXYTWwekNrw7ntBJ1y8wRTE2kf3drU7sMA=",
+            "MSILHash": "rxKxBR+ISmPBoN37mWTmXxWOIvBdoPr9frWR0czAJBM=",
             "BaseHookName": null
           }
         },
@@ -427,7 +427,7 @@
             "HookName": "CanOpenDoor",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "KeyLock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnTryToOpen",
@@ -436,7 +436,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "KP8odDkmowXYTWwekNrw7ntBJ1y8wRTE2kf3drU7sMA=",
+            "MSILHash": "rxKxBR+ISmPBoN37mWTmXxWOIvBdoPr9frWR0czAJBM=",
             "BaseHookName": null
           }
         },
@@ -452,7 +452,7 @@
             "HookName": "OnItemCraft",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ItemCrafter",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "CraftItem",
@@ -464,7 +464,7 @@
                 "System.Int32"
               ]
             },
-            "MSILHash": "3khIy8QRoeLUeq63XsJwu5daBVi7jBW64KJ+K5uHeDw=",
+            "MSILHash": "nhpFn/1P7Jgzp0U7PmHzswq9lygF3dp1iPNcTlPdgZQ=",
             "BaseHookName": null
           }
         },
@@ -480,7 +480,7 @@
             "HookName": "OnPlayerLoot",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "PlayerLoot",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "StartLootingEntity",
@@ -490,7 +490,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "LtQR4xuxAx5LSI4JDEicd8sjoLuaA16aC7fgQhvt4j8=",
+            "MSILHash": "xe3WTAf2YTcPYOUGxu40zJyzq/ErU4258R0hIxUpBuw=",
             "BaseHookName": null
           }
         },
@@ -506,7 +506,7 @@
             "HookName": "OnPlayerLoot",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "PlayerLoot",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "StartLootingItem",
@@ -515,7 +515,7 @@
                 "Item"
               ]
             },
-            "MSILHash": "09pahSDr1zGkUzGqCAB5IkiuRGdBtKBpcocXl4UpyvU=",
+            "MSILHash": "7tIzfr91UQd/7mVyvbyvF6gy2uxO7LsCI7MEbXzTCb8=",
             "BaseHookName": null
           }
         },
@@ -531,7 +531,7 @@
             "HookName": "OnPlayerLoot",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "PlayerLoot",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "StartLootingPlayer",
@@ -540,7 +540,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "hlJX8mTIARG5eXNz3dcO41GUJj46aHztsq3YKggc6mY=",
+            "MSILHash": "u9/4IZdVssySJjUVSjYWy/ZVGPw2b32gqpIxBiPvGnE=",
             "BaseHookName": null
           }
         },
@@ -556,7 +556,7 @@
             "HookName": "OnEntityEnter",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "TriggerBase",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "OnEntityEnter",
@@ -565,7 +565,7 @@
                 "BaseEntity"
               ]
             },
-            "MSILHash": "bhHYnqbkkAxDJojfHf90q/7TrG487S4T3VqYQfMzR4Y=",
+            "MSILHash": "gCV/UVaRtNTnaXps4AU7L22U7Xm31uwrD88UnfuPOwc=",
             "BaseHookName": null
           }
         },
@@ -581,7 +581,7 @@
             "HookName": "OnEntityLeave",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "TriggerBase",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "OnEntityLeave",
@@ -590,7 +590,7 @@
                 "BaseEntity"
               ]
             },
-            "MSILHash": "2QFvwPCtCwFITIP0a1qAnYNJctfLwe0MmAA+CWlAYHA=",
+            "MSILHash": "rqf4gjYxPUALkM7y09oed0ZWqLMjrsSGOAFtVVxMtus=",
             "BaseHookName": null
           }
         },
@@ -606,7 +606,7 @@
             "HookName": "OnItemDeployed",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Deployer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "DoDeploy_Regular",
@@ -616,7 +616,7 @@
                 "UnityEngine.Ray"
               ]
             },
-            "MSILHash": "LEofJLpBgpPQfsjEv3/AL/3eJJLNg0bo6OAVitb3CTg=",
+            "MSILHash": "6AT7rLSS7Dn8EvFysZ9+gdsTbCcCRGe52mg2y8YssKo=",
             "BaseHookName": null
           }
         },
@@ -632,7 +632,7 @@
             "HookName": "OnItemDeployed",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Deployer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "DoDeploy_Slot",
@@ -643,7 +643,7 @@
                 "System.UInt32"
               ]
             },
-            "MSILHash": "ylhRaZpe3ZjUV9HH1qnxJ2bb1Hou7+vFoiH+sjDRf7s=",
+            "MSILHash": "cZh/EPVcZ4wCtU8ZoYfwitB0FYjTSFSIg85p+X0E80o=",
             "BaseHookName": null
           }
         },
@@ -659,7 +659,7 @@
             "HookName": "OnEntityBuilt",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Planner",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "DoBuild",
@@ -669,7 +669,7 @@
                 "Construction"
               ]
             },
-            "MSILHash": "6B4/f1axVrJ9tcAyveNkn++jBsrJHWcTILyhCJn8Nbg=",
+            "MSILHash": "DYMzP/jNmWUozaZ9tlWFfyJeECaAYsloW51aDW1efEE=",
             "BaseHookName": null
           }
         },
@@ -685,7 +685,7 @@
             "HookName": "OnEntityDeath",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseCombatEntity",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Die",
@@ -694,7 +694,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "LrGybN8Vr07mLux1i8h0tbntcSt8ZAGLy1xZvJ0Ulbw=",
+            "MSILHash": "SxxYKcsYpX8gBZbndiLTC+IOKELmg+qEjFXxIh4tyJM=",
             "BaseHookName": null
           }
         },
@@ -710,7 +710,7 @@
             "HookName": "OnBaseCombatEntityHurt",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseCombatEntity",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Hurt",
@@ -720,7 +720,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "ROO5mhc8jJIEznrt2QvSgy97KXXa4I/GEuMsqwhgoGo=",
+            "MSILHash": "OMZossbxU5l66hVKopB2wqfdn8ufwHdgP6EZzfpcE2Y=",
             "BaseHookName": null
           }
         },
@@ -736,7 +736,7 @@
             "HookName": "OnServerInitialized",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerMgr",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Initialize",
@@ -747,7 +747,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "KX/V9UQ+NFvu1KO9DC3K/HwSsTI8aRXKSlpZG6k4rLM=",
+            "MSILHash": "HoJ0zJFIaMX1meuL4TmjGekasQdI+lgSd7WNVbqx+6A=",
             "BaseHookName": null
           }
         },
@@ -763,7 +763,7 @@
             "HookName": "OnGather",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ResourceDispenser",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "GiveResourceFromItem",
@@ -775,7 +775,7 @@
                 "System.Single"
               ]
             },
-            "MSILHash": "WlW+yQXtTgSJ2vZLXllFNAkDFGAW/yFLcP0c2chzZl8=",
+            "MSILHash": "1Z2f4VSrWDui8wGodVZOORClevOFfFr1/uS/A+a8gO0=",
             "BaseHookName": null
           }
         },
@@ -791,7 +791,7 @@
             "HookName": "OnMeleeAttack",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseMelee",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "DoAttackShared",
@@ -800,7 +800,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "8UIWBN/E+dbmvGWJ8QWnuPtSSAK/vajPufQWnzarrtg=",
+            "MSILHash": "0QA6DEEQBXb6Sz/h7ifq0TcnN80Jg83kzyGuzK0qr38=",
             "BaseHookName": null
           }
         },
@@ -816,7 +816,7 @@
             "HookName": "OnPlayerAttack",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "SharedProjectileAttack",
@@ -825,7 +825,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "Z9h072wR7R5514zMgFOTwwdOEdOXyt5k6qEIleq29Es=",
+            "MSILHash": "B9ZVW7KrR6iu00aFv6/YRACzzj0gf6UDYcr0VgAleJ4=",
             "BaseHookName": null
           }
         },
@@ -841,14 +841,14 @@
             "HookName": "OnServerSave",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "SaveRestore",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "DoAutomatedSave",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "HpYyDz3oli29vd8E2HlMvNcVyexM15iZycKtEG3u6vI=",
+            "MSILHash": "9oAWl1INmyt78QBf0CRjeEdgJWS6taGcuRCatDsUPtg=",
             "BaseHookName": null
           }
         },
@@ -864,7 +864,7 @@
             "HookName": "OnRunCommand",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ConsoleSystem/Run",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "Internal",
@@ -874,7 +874,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "EBolryqINdacZD11xRCiyuZ1Rz1R8GnMyuURmuVFO7A=",
+            "MSILHash": "Sls6gByIWkYvs5XkE2ypmyv4QmNBNHIeT4GbEHzX8To=",
             "BaseHookName": null
           }
         },
@@ -890,7 +890,7 @@
             "HookName": "OnRunCommand",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ConsoleSystem/Run",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "Unrestricted",
@@ -900,7 +900,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "rLeEfY86Mgj96KRUI610QqyikDGKMaHF6VfP6e2FC+0=",
+            "MSILHash": "eOcWVRCwJdRUfENaN47Fm426I/JD8k+cswJd1C6xu1Q=",
             "BaseHookName": null
           }
         },
@@ -916,7 +916,7 @@
             "HookName": "OnRunCommand",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ConsoleSystem/SystemRealm",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Normal",
@@ -927,7 +927,7 @@
                 "System.Object[]"
               ]
             },
-            "MSILHash": "o+9JHlBg06rv3+SyXkFJtpGtHy41faNPhEUbL2cXIec=",
+            "MSILHash": "IiXx+Y6tzLP1kY1I0r2/DCwbDMH4ctH6vfEm4E6BIqQ=",
             "BaseHookName": null
           }
         },
@@ -943,7 +943,7 @@
             "HookName": "OnRunPlayerMetabolism",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "PlayerMetabolism",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 3,
               "Name": "RunMetabolism",
@@ -953,7 +953,7 @@
                 "System.Single"
               ]
             },
-            "MSILHash": "qyemkNZTQ7v94do/GO8LB376vZu22EH0J2iyjx4bopg=",
+            "MSILHash": "Ijdas1QEogfywz4wLlBw2uJAQfJUVjemrUVEuX9yRc8=",
             "BaseHookName": null
           }
         },
@@ -969,7 +969,7 @@
             "HookName": "OnUserApprove",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ConnectionAuth",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnNewConnection",
@@ -978,7 +978,7 @@
                 "Network.Connection"
               ]
             },
-            "MSILHash": "t+GOOlQdkJeRzyr8n0v0gBEgx9Kr9mmQQHBC8YyDNw8=",
+            "MSILHash": "A0R9LqAwuz+VOOoXx2SKDcWdtUr34RAAo/N7MUUzPJk=",
             "BaseHookName": null
           }
         },
@@ -994,14 +994,14 @@
             "HookName": "OnServerShutdown",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Rust.Application",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Quit",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "43eaD6g4VGQl8SX+2eW1jnTWopSq/sUiOvQXsh5rNg4=",
+            "MSILHash": "GA9nYvasCtnmqBnj73P3fDaKlJm+vZ9s25KwJUR7nko=",
             "BaseHookName": null
           }
         },
@@ -1017,7 +1017,7 @@
             "HookName": "OnBuildingBlockDoUpgradeToGrade",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BuildingBlock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "DoUpgradeToGrade",
@@ -1026,7 +1026,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "3w+1pxf5P2X645P7FS1ILNvSCHrCyBq1i5Ja9GMTcRk=",
+            "MSILHash": "deKZAXYbAgTPLFUzke3+MJYUqS70wQfbu7Cm1gvnzs4=",
             "BaseHookName": null
           }
         },
@@ -1042,7 +1042,7 @@
             "HookName": "OnBuildingBlockDoImmediateDemolish",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BuildingBlock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "DoImmediateDemolish",
@@ -1051,7 +1051,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "FF/i8CXhwforqCvzZisoopztkc7cpD4CSZLXOiB+aKU=",
+            "MSILHash": "/dKudEVto2UCf6Wj07kNJdZ9Kg865LGvpME1kWv3Wgs=",
             "BaseHookName": null
           }
         },
@@ -1067,7 +1067,7 @@
             "HookName": "OnBuildingBlockDoRotation",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BuildingBlock",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "DoRotation",
@@ -1076,7 +1076,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "iIDsAWgI1Qzo0ix7mpQsqxt1e5gVILyDLDCRzvElx5c=",
+            "MSILHash": "kBNEFlC1G9L9KJLT0ZS/xwr2VYj4gbCsRiA93XbjpSs=",
             "BaseHookName": null
           }
         },
@@ -1092,7 +1092,7 @@
             "HookName": "OnConsumeFuel",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseOven",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "ConsumeFuel",
@@ -1102,7 +1102,7 @@
                 "ItemModBurnable"
               ]
             },
-            "MSILHash": "JH7XasPgAgPsaX7rfF0TTivlNXD7bMeFpvaE53v00U8=",
+            "MSILHash": "lXV9aMgjb4w2++/6O8qC/L6SZotJKknniuJYldrWwVY=",
             "BaseHookName": null
           }
         },
@@ -1118,7 +1118,7 @@
             "HookName": "CanUpdateSign",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Signage",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "CanUpdateSign",
@@ -1127,7 +1127,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "p1mGBYvffFZHtPNZW/ynU37akiE77LZerF0LmJw34m4=",
+            "MSILHash": "gnwjjxA3aM8mSpM4eXWZ/iY6O3lj2T+Zp1zBLfwAQkU=",
             "BaseHookName": null
           }
         },
@@ -1143,7 +1143,7 @@
             "HookName": "LockSign",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Signage",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "LockSign",
@@ -1152,7 +1152,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "j/zRiPsK70z9dPAhMvei8fklNe46edTdFAsb/0F0Arw=",
+            "MSILHash": "3zImph+pzmcE3MkSI8xlvV53/kAVPvEQ1SV6RRaLYVU=",
             "BaseHookName": null
           }
         },
@@ -1168,7 +1168,7 @@
             "HookName": "UpdateSign",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Signage",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "UpdateSign",
@@ -1177,7 +1177,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "Fwv4xhJ6ELP5Qxe+oz/EUXrBjLXdlidNrx49qgUBpGM=",
+            "MSILHash": "OieU+fEMqK45+EExl0k8RhyixHypm2GDamCX1GqiGy4=",
             "BaseHookName": null
           }
         },
@@ -1193,7 +1193,7 @@
             "HookName": "LoseCondition",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Item",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "LoseCondition",
@@ -1202,7 +1202,7 @@
                 "System.Single"
               ]
             },
-            "MSILHash": "6w7DXPSPK5l++p8pZ2orIjzv8Ekd912t2XPq5pRi4s0=",
+            "MSILHash": "R8WIaPw4yoF5cZHxPO5mnD69hwse3GPiorcSOx/23JQ=",
             "BaseHookName": null
           }
         },
@@ -1218,14 +1218,14 @@
             "HookName": "OnPlayerSleepEnded",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "EndSleeping",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "XAfx+dSBUPbKAgc/11XqrJeikX/5CJXJaHCEoheJi4k=",
+            "MSILHash": "ZZlquVqrnjpKaK8eBH24ZiTfeCjZfvdLeCzg+v22Dgw=",
             "BaseHookName": null
           }
         },
@@ -1241,14 +1241,14 @@
             "HookName": "OnEntityGroundMissing",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "DestroyOnGroundMissing",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "OnGroundMissing",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "CQW+eywQn+dbiSB1fXzXp0iAY8Sm4oAwDDmwYlAfElg=",
+            "MSILHash": "XJD6wiE0jC3ophcGlqYP+FnRhoMXmqlY86h538qu4aw=",
             "BaseHookName": null
           }
         },
@@ -1264,7 +1264,7 @@
             "HookName": "OnDoorOpened",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Door",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "RPC_OpenDoor",
@@ -1273,7 +1273,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "KFU6hkaLdPZcMn4rP9yn1qhPAOV0Lj+IpmbDub6JZV4=",
+            "MSILHash": "eEQPA9EtH6n4kjzftsHAa/ZMGnI/RNXYcZcsjTsQiZ4=",
             "BaseHookName": null
           }
         },
@@ -1289,7 +1289,7 @@
             "HookName": "OnDoorClosed",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Door",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "RPC_CloseDoor",
@@ -1298,7 +1298,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "uXipJ5L7oXp2XY4eDGdGxPU+UPduQ27NakJmcTPQAJI=",
+            "MSILHash": "N2W01EgdchOJAqrENiuTz3XVXv2460DXbq9KL7rj6ho=",
             "BaseHookName": null
           }
         },
@@ -1314,7 +1314,7 @@
             "HookName": "OnPlayerTick",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "OnReceiveTick",
@@ -1324,7 +1324,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "6FgXt9HGXyJPR6pdKcBeDvGPHx1SNKlbdmMY8bYk2nA=",
+            "MSILHash": "mwamRRoVam7vQcWfJO7VLTbvlS6u7zsrp8f0zOkjnv8=",
             "BaseHookName": null
           }
         },
@@ -1340,7 +1340,7 @@
             "HookName": "OnBasePlayerAttacked",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnAttacked",
@@ -1349,7 +1349,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "4/1094/a0BJRQXvokqiJVBnmrxa81pIryGNFDUyce6s=",
+            "MSILHash": "CV7CpKyMjAt15YpO8OlXqwv1lYwzGc8xiXe0MqSUD/8=",
             "BaseHookName": null
           }
         },
@@ -1365,7 +1365,7 @@
             "HookName": "OnBasePlayerHurt",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "Hurt",
@@ -1375,7 +1375,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "2nPCiNWmCdC3azRs2w6L0c7c614Eo8zpGp1MnezZNZE=",
+            "MSILHash": "9NUrIdo/c2f+ipG3JPOa0fuv08Jk7Wk1OMv7LXrgQsg=",
             "BaseHookName": null
           }
         },
@@ -1391,7 +1391,7 @@
             "HookName": "OnWeaponDoThrow",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ThrownWeapon",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "DoThrow",
@@ -1400,7 +1400,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "Pw9A2fe35pOQgl3FstL/2NUk4mmNZxe7lEC6xeG65DM=",
+            "MSILHash": "3TiQFRpZZrJVFgH0JKZzSMGROUCPB6+J+L6/3lLaABY=",
             "BaseHookName": null
           }
         },
@@ -1416,7 +1416,7 @@
             "HookName": "OnItemCraftFinished",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ItemCrafter",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "FinishCrafting",
@@ -1425,7 +1425,7 @@
                 "ItemCraftTask"
               ]
             },
-            "MSILHash": "TeYT0hH01iBiB/0A6snCYGZjdAFapVz+UqsJXdo0lFY=",
+            "MSILHash": "WzTC8RgoTUgIPZwxrc5oKJ6nC/aLL6B5SQTM1ZUQlKk=",
             "BaseHookName": null
           }
         },
@@ -1441,14 +1441,14 @@
             "HookName": "OnTerrainInitialized",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "TerrainMeta",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "CalculateChecksum",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "2QNKh9RzbxjuCSm0fDyAVbCt9iiRAuqRv800moOvG3w=",
+            "MSILHash": "6lD0xDmqyxxEE6lfvVhryMxATrb6zsiZ5XiD6stRMo8=",
             "BaseHookName": null
           }
         },
@@ -1464,7 +1464,7 @@
             "HookName": "OnHealingItemUse",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "SyringeWeapon",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "GiveEffectsTo",
@@ -1473,7 +1473,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "MPtIBzZs52l7BoAWsIbUxRInzC9Pm5wCfr4MfmVrNzs=",
+            "MSILHash": "FFt6FhZsQs9v1qPGp8a45IrvOM6mgEhGyaAovbr/AUI=",
             "BaseHookName": null
           }
         },
@@ -1489,7 +1489,7 @@
             "HookName": "OnHealingItemUse",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "MedicalTool",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "GiveEffectsTo",
@@ -1498,7 +1498,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "LsnrbG/La1ZgaGlBap/oDH5rVptbH3zwzBes9NkyhzQ=",
+            "MSILHash": "+q2riltAEWKDfosi5yneHQpD6t5087x58+WCz4XJ31U=",
             "BaseHookName": null
           }
         },
@@ -1514,7 +1514,7 @@
             "HookName": "OnItemResearch",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ResearchTable",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "DoResearch",
@@ -1523,7 +1523,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "Zc2T4/rGKYNK+U08LoPN0QDnx0W4Fms2XuaM39aHnSM=",
+            "MSILHash": "1lio6EQ7F09KAvJZ93vM6xaTHbqghUhiQkbfmlx9i8Y=",
             "BaseHookName": null
           }
         },
@@ -1539,7 +1539,7 @@
             "HookName": "OnItemResearchStart",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ResearchTable",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "DoResearch",
@@ -1548,7 +1548,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "Zc2T4/rGKYNK+U08LoPN0QDnx0W4Fms2XuaM39aHnSM=",
+            "MSILHash": "1lio6EQ7F09KAvJZ93vM6xaTHbqghUhiQkbfmlx9i8Y=",
             "BaseHookName": "OnItemResearch"
           }
         },
@@ -1564,14 +1564,14 @@
             "HookName": "OnItemResearchEnds",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ResearchTable",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "ResearchAttemptFinished",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "Fu9IT/j90rglj6zPTxIf3Uiyay+syO8tNPxY+UraxlM=",
+            "MSILHash": "v0lgFtKDRrSRThrQ3O3WyW4WlvH9qEJtOFBjPZkFWy8=",
             "BaseHookName": null
           }
         },
@@ -1587,14 +1587,14 @@
             "HookName": "OnEnableServerConsole",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerConsole",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "OnEnable",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "/m2mXbZi/CGYAG4eX9A3YYIYTd4RqQKLUZkalMheHYU=",
+            "MSILHash": "z1+f6DG3oYFamGr0jGIPabhTufl6ChfinbORGJgXyrg=",
             "BaseHookName": null
           }
         },
@@ -1610,14 +1610,14 @@
             "HookName": "OnDisableServerConsole",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ServerConsole",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "OnDisable",
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "4CAKC5UytzD2uJzaWnQXJ2VEGyypmvO7u7VGT65oUiE=",
+            "MSILHash": "5G1U8g3dpcSOJ+F7E1kxYgVF9uZ3Bdmzsf34eGdurQs=",
             "BaseHookName": null
           }
         },
@@ -1633,7 +1633,7 @@
             "HookName": "CanLootPlayer",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "CanBeLooted",
@@ -1642,7 +1642,7 @@
                 "BasePlayer"
               ]
             },
-            "MSILHash": "hSltD0G85Cvxb5pMK5exJk2lMjd8AebQKnHTlB1d9no=",
+            "MSILHash": "T8vPbIFuZLvpruAjJBztMHRZCvhvpM5a1ThqQlxZpQA=",
             "BaseHookName": null
           }
         },
@@ -1658,7 +1658,7 @@
             "HookName": "CanBeWounded",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BasePlayer",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "EligibleForWounding",
@@ -1667,7 +1667,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "vzmzISRh9Fpdz6HBKHxVRsDdyxSX/rEA78hIa4dNkDM=",
+            "MSILHash": "4Xtk3lrL7yzFxVoeYlOEr4sUh1I5AB5UEKFVzVdDbLE=",
             "BaseHookName": null
           }
         },
@@ -1683,7 +1683,7 @@
             "HookName": "OnRocketLaunch",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseLauncher",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "SV_Launch",
@@ -1692,7 +1692,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "cnWQll62MjD+/U2Qpm2QZarKiILJVISQg6TsY/shi2o=",
+            "MSILHash": "/1iIG+NYLv7uHpZE9x9NjyOtcFfHFGjAjzimAMu4aMs=",
             "BaseHookName": null
           }
         },
@@ -1708,7 +1708,7 @@
             "HookName": "OnWeaponFire",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "BaseProjectile",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 0,
               "Name": "CLProject",
@@ -1717,7 +1717,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "Z0sAsUNkyKCQLEW7HJ1Y30QNYqEZ9EZMglaVvI/FLAM=",
+            "MSILHash": "UmLDLGm5PVzLYfShRpDJjiKSUTgXxBVeZ20/Jt/wtQU=",
             "BaseHookName": null
           }
         },
@@ -1733,7 +1733,7 @@
             "HookName": "OnConsumableUse",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "Item",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "UseItem",
@@ -1742,7 +1742,7 @@
                 "System.Int32"
               ]
             },
-            "MSILHash": "8LlQVWuYP7WPocZtichmuJDdVbq7NKLmOAkqb0ST3+M=",
+            "MSILHash": "G8j4LIEXw3jiap5D726f1y1wJrZpAFEQX0RXt4pVn6g=",
             "BaseHookName": null
           }
         },
@@ -1758,7 +1758,7 @@
             "HookName": "OnPlayerChat",
             "AssemblyName": "Assembly-CSharp.dll",
             "TypeName": "ConVar.Chat",
-            "Flagged": false,
+            "Flagged": true,
             "Signature": {
               "Exposure": 2,
               "Name": "say",
@@ -1767,7 +1767,30 @@
                 "ConsoleSystem/Arg"
               ]
             },
-            "MSILHash": "yHXbEgMiPSCNeEEH48Ty5l+loTQUWYPXjwWoLLERj+A=",
+            "MSILHash": "Jfrvr4gvH7Aibg81oqRJay/0cmZg1Pj0BSib1ew+6m8=",
+            "BaseHookName": null
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 50,
+            "ReturnBehavior": 0,
+            "ArgumentBehavior": 4,
+            "ArgumentString": "this, l4",
+            "HookTypeName": "Simple",
+            "Name": "QuarryGather",
+            "HookName": "OnQuarryGather",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "MiningQuarry",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "ProcessResources",
+              "ReturnType": "System.Void",
+              "Parameters": []
+            },
+            "MSILHash": "BO8JaSNtz+Lg8PrbmD1uywK0WMJe+KVb2psRZh+bROA=",
             "BaseHookName": null
           }
         }
